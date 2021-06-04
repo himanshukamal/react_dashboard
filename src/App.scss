@@ -1,0 +1,158 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/icon?family=Material+Icons");
+* {
+    background-color: #eeeeee;
+
+}
+
+.reading_menu {
+    header {
+        margin: 2rem;
+        .profile_wrapper {
+            display: flex;
+            .profile_picture {
+                width: 8rem;
+                border-radius: 1.5rem;
+            }
+            .profile_detail_wrapper {
+                margin-left: 4rem;
+                .profile_name {
+                    font-family: 'Rubik', sans-serif;
+                    margin-bottom: 0;
+                    font-size: xx-large;
+                    font-weight: bold;
+                }
+                .profile_designation {
+                    color: #777;
+                    font-weight: 700;
+                    margin: 0;
+                }
+            }
+        }
+    }
+    .body_container {
+        display:flex;
+        .side_menu_wrapper {
+            margin-left: 2rem;
+            width: 20vw;
+            border-radius: 10px;
+            padding: 2em;
+            box-shadow: 0px 5px 28px 3px #998f8f;
+            .side_menu_title{
+                .title_list {
+                    display: flex;
+                    .speed {
+                        margin-left: 0rem;
+                    }
+                    div {
+                        margin-left: 2rem;
+                    }
+                }
+            }
+    
+            .side_menu_body{
+                .side_menu_content_wrapper{
+                    .nav_item_title {
+                        color: #777;
+                        font-weight: 500;
+                    }
+                    .book_details_wrapper {
+                        p {
+                            font-size: xx-large;
+                            margin: 0;
+                        }
+                        .progress_bar1 {
+                            position: absolute;
+                            border-top: 8px solid rgb(43, 43, 233);
+                            width: 7em;
+                            margin-left: 5em;
+                            margin-top: -1.4em;
+                            border-radius: 4px;
+                        }
+                        .progress_bar2 {
+                            position: absolute;
+                            border-top: 8px solid rgb(241, 241, 98);
+                            width: 11em;
+                            margin-left: 5em;
+                            margin-top: -1.4em;
+                            border-radius: 4px;
+                        }
+                        .progress_bar3 {
+                            position: absolute;
+                            border-top: 8px solid orangered;
+                            width: 5em;
+                            margin-left: 5em;
+                            margin-top: -1.4em;
+                            border-radius: 4px;
+                        }
+                        .clap_icon {
+                            position: absolute;
+                            margin-left: 5em;
+                            margin-top: -1.4em;
+                        }
+                        .brain_icon {
+                            position: absolute;
+                            margin-left: 10em;
+                            margin-top: -1.4em;
+                        }
+                    }
+                }
+            }    
+        }
+        .main_content {
+            margin-left: 2em;
+            .book_title {
+                font-size: 3em;
+                margin-bottom: 0;
+            }
+            .book_title_second {
+                font-size: 3em;
+                margin: 0;
+            }
+            button {
+                background: rgb(0,198,210);
+                width: 12em;
+                border-radius: 40px;
+                outline: none;
+                border: none;
+                padding: 0.4em;
+                font-size: 1.3em;
+                color: rgb(154,249,252);
+                font-family: 'Rubik';
+                font-weight: 800;
+                line-height: 1.5em;
+                span {
+                    background: none;
+                    margin-left: 1em;
+                    vertical-align: -5px;
+                }
+            }
+        }
+        .main_image_wrapper {
+            .book_cover {
+                width: 50%;
+                padding: 5rem;
+                position: relative;
+                animation-name: book_animation;
+                animation-duration: 5s;
+
+            }
+            @keyframes book_animation {
+                0% {
+                    transform: translateY(2em);
+                  }
+                50% {
+                    transform: scale(1.4);
+                    opacity: 0.4;
+
+                  }
+            }
+           
+            }
+            
+    } 
+   
+       
+
+    
+}
