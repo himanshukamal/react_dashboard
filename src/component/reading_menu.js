@@ -29,14 +29,15 @@ class ReadingMenu extends Component {
                             <div className="side_menu_body">
                                 <div className="side_menu_content_wrapper">
                                     <p className="nav_item_title">Books</p>
-                                    {/* <div className="book_details_wrapper">
+                                    <div className="book_details_wrapper">
                                         <p>15</p>
-                                        <div className="progress_bar1">
-                                        </div>
-                                    </div> */}
-                                    <progress value="50" max="100">
+                                        {/* <div className="progress_bar1">
+                                        </div> */}
+                                        <progress value="50" max="100">
 
-                                    </progress>
+                                        </progress>
+                                    </div>
+                                    
                                 </div>
 
                                 <div className="side_menu_content_wrapper">
