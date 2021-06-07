@@ -201,34 +201,34 @@
         }
         .main_image_wrapper {
             .book_cover {
-                width: 18%;
+                width: 38%;
                 // padding: 3rem;
                 position: relative;
                 animation-name: book_animation;
                 animation-duration: 5s;
                 animation-iteration-count: infinite;
                 overflow: hidden;
-                transform: rotate(27deg);
-                left: 38em;
+                left: 33em;
                 z-index: 5;
                 bottom: 17em;
+                background: none;
             }
             @keyframes book_animation {
                 0% {
                     z-index: 2;
-                    transform: translateY(-3em);
-                    transform: rotate(27deg);
+                    transform: translateY(0em);
+                    // transform: rotate(27deg);
                   }
-                25% {
-                    z-index: 2;
-                    transform: translateY(1em);
-                    transform: rotate(27deg);
-                }  
+                // 25% {
+                //     z-index: 2;
+                //     transform: translateY(0em);
+                //     // transform: rotate(27deg);
+                // }  
                 50% {
                     transform: scale(1.2);
-                    transform: rotate(27deg);
+                    // transform: rotate(27deg);
                     z-index: 3;
-                    transform: translateY(3em);
+                    transform: translateY(2em);
                   }
             }
             #circle {

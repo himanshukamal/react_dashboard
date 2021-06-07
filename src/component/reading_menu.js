@@ -92,7 +92,7 @@ class ReadingMenu extends Component {
                         </div>
 
                         <div className="main_image_wrapper">
-                            <img src="./gatspy.jpg" className="book_cover"/>
+                            <img src="./book1.png" className="book_cover"/>
                             <div className="circle_wrapper">
                                 <div id="circle"></div>
                             </div>
