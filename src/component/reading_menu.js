@@ -44,8 +44,10 @@ class ReadingMenu extends Component {
                                     <p className="nav_item_title">Articles</p>
                                     <div className="book_details_wrapper">
                                         <p>88</p>
-                                        <div className="progress_bar2">
-                                        </div>
+                                        {/* <div className="progress_bar2">
+                                        </div> */}
+                                         <progress className="yellow_progress_bar" value="88" max="100">
+                                         </progress>
                                     </div>
                                 </div>
 
@@ -80,18 +82,145 @@ class ReadingMenu extends Component {
                         
                         </div>
                     </div>
-                    
-                    <div className="main_content">
-                        <p className="book_title">The Great Gatspy</p>
-                        <p className="book_title_second">Gatspy</p>
-                        <p>The Great Gatsby is a 1925 novel by American writer F.
-                        </p>
-                        <button>write review<span class="material-icons">star_border</span></button>
-                    </div>
+                    <div className="main_content_wrapper">
+                        <div className="main_content">
+                            <p className="book_title ">The Great Gatsby</p>
+                            <p className="book_title_second ">Gatsby</p>
+                            <p>The Great Gatsby is a 1925 novel by American writer F.
+                            </p>
+                            <button>write review<span class="material-icons">star_border</span></button>
+                        </div>
 
-                    <div className="main_image_wrapper">
-                        <img src="./gatspy.jpg" className="book_cover"/>
+                        <div className="main_image_wrapper">
+                            <img src="./gatspy.jpg" className="book_cover"/>
+                            <div className="circle_wrapper">
+                                <div id="circle"></div>
+                            </div>
+                        </div>
+                        <div className="dates_wrapper">
+                            <div className="dates_container">
+                                <div className="first_date">
+                                     <span className="expanded">
+                                        <p className="book_name">The Great Gatsby</p>
+                                        <p className="genre">
+                                            children novel
+                                        </p>
+                                        <h3>1</h3>
+                                    </span> 
+                                    
+                                    <span className="normal">
+                                        <p className="month_name">Jan</p>
+                                        <h3 >1</h3>
+                                    </span>
+                                </div>
+
+                                <div className="first_date">
+                                     <span className="expanded">
+                                        <p className="book_name">The Great Gatsby</p>
+                                        <p className="genre">
+                                            children novel
+                                        </p>
+                                        <h3>1</h3>
+                                    </span> 
+                                    
+                                    <span className="normal">
+                                        <p className="month_name">Jan</p>
+                                        <h3 >1</h3>
+                                    </span>
+                                </div>
+
+                                <div className="first_date">
+                                     <span className="expanded">
+                                        <p className="book_name">The Great Gatsby</p>
+                                        <p className="genre">
+                                            children novel
+                                        </p>
+                                        <h3>1</h3>
+                                    </span> 
+                                    
+                                    <span className="normal">
+                                        <p className="month_name">Jan</p>
+                                        <h3 >1</h3>
+                                    </span>
+                                </div>
+
+                                <div className="first_date">
+                                     <span className="expanded">
+                                        <p className="book_name">The Great Gatsby</p>
+                                        <p className="genre">
+                                            children novel
+                                        </p>
+                                        <h3>1</h3>
+                                    </span> 
+                                    
+                                    <span className="normal">
+                                        <p className="month_name">Jan</p>
+                                        <h3 >1</h3>
+                                    </span>
+                                </div>
+
+                                <div className="first_date">
+                                     <span className="expanded">
+                                        <p className="book_name">The Great Gatsby</p>
+                                        <p className="genre">
+                                            children novel
+                                        </p>
+                                        <h3>1</h3>
+                                    </span> 
+                                    
+                                    <span className="normal">
+                                        <p className="month_name">Jan</p>
+                                        <h3 >1</h3>
+                                    </span>
+                                </div>
+
+                                <div className="first_date">
+                                     <span className="expanded">
+                                        <p className="book_name">The Great Gatsby</p>
+                                        <p className="genre">
+                                            children novel
+                                        </p>
+                                        <h3>1</h3>
+                                    </span> 
+                                    
+                                    <span className="normal">
+                                        <p className="month_name">Jan</p>
+                                        <h3 >1</h3>
+                                    </span>
+                                </div>
+                                <div className="first_date">
+                                     <span className="expanded">
+                                        <p className="book_name">The Great Gatsby</p>
+                                        <p className="genre">
+                                            children novel
+                                        </p>
+                                        <h3>1</h3>
+                                    </span> 
+                                    
+                                    <span className="normal">
+                                        <p className="month_name">Jan</p>
+                                        <h3 >1</h3>
+                                    </span>
+                                </div>
+                                <div className="first_date">
+                                     <span className="expanded">
+                                        <p className="book_name">The Great Gatsby</p>
+                                        <p className="genre">
+                                            children novel
+                                        </p>
+                                        <h3>1</h3>
+                                    </span> 
+                                    
+                                    <span className="normal">
+                                        <p className="month_name">Jan</p>
+                                        <h3 >1</h3>
+                                    </span>
+                                </div>
+                                
+                            </div>
+                        </div>
                     </div>
+                  
                 </div>
             </div>    
                   
