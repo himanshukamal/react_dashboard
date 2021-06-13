@@ -20,8 +20,8 @@ class ReadingMenu extends Component {
                         <div className="side_menu_title">
                             <div className="title_list">
                                 <div className="speed"><span class="material-icons">speed</span></div>
-                                <div>dashboard</div>
-                                <div><span class="material-icons">search</span></div>
+                                <div>Dashboard</div>
+                                <div className="search"><span class="material-icons">search</span></div>
                                 <div><span class="material-icons">bookmark</span></div>
                             </div>
                         </div>
@@ -46,8 +46,11 @@ class ReadingMenu extends Component {
                                         <p>88</p>
                                         {/* <div className="progress_bar2">
                                         </div> */}
-                                         <progress className="yellow_progress_bar" value="88" max="100">
+                                        <div className="yellow_progress_bar">
+                                        <progress  value="88" max="100">
                                          </progress>
+                                        </div>
+                                         
                                     </div>
                                 </div>
 
@@ -55,7 +58,11 @@ class ReadingMenu extends Component {
                                     <p className="nav_item_title">Reading hours</p>
                                     <div className="book_details_wrapper">
                                         <p>225</p>
-                                        <div className="progress_bar3">
+                                        {/* <div className="progress_bar3">
+                                        </div> */}
+                                        <div className="orange_progress_bar">
+                                            <progress  value="30" max="100">
+                                            </progress>
                                         </div>
                                     </div>
                                 </div>
@@ -84,8 +91,8 @@ class ReadingMenu extends Component {
                     </div>
                     <div className="main_content_wrapper">
                         <div className="main_content">
-                            <p className="book_title ">The Great Gatsby</p>
-                            <p className="book_title_second ">Gatsby</p>
+                            <p className="book_title ">The Journey of</p>
+                            <p className="book_title_second ">Dreams</p>
                             <p>The Great Gatsby is a 1925 novel by American writer F.
                             </p>
                             <button>write review<span class="material-icons">star_border</span></button>
@@ -101,7 +108,7 @@ class ReadingMenu extends Component {
                             <div className="dates_container">
                                 <div className="first_date">
                                      <span className="expanded">
-                                        <p className="book_name">The Great Gatsby</p>
+                                        <p className="book_name">The journey of Dreams</p>
                                         <p className="genre">
                                             children novel
                                         </p>
@@ -116,9 +123,9 @@ class ReadingMenu extends Component {
 
                                 <div className="first_date">
                                      <span className="expanded">
-                                        <p className="book_name">The Great Gatsby</p>
+                                        <p className="book_name">The RedBreast</p>
                                         <p className="genre">
-                                            children novel
+                                            crime novel
                                         </p>
                                         <h3>1</h3>
                                     </span> 

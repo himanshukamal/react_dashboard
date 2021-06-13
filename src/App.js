@@ -1,11 +1,13 @@
 import React , { Component } from 'react';
 import './App.scss';
 import ReadingMenu from './component/reading_menu';
+import Articles from './component/articles';
 
 function App() {
   return (
     <div className="App">
-      <ReadingMenu />
+      {/* <ReadingMenu /> */}
+      <Articles />
       
     </div>
   );
