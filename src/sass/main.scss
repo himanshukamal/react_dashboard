@@ -1,3 +1,16 @@
+@import "abstracts/functions";
+@import "abstracts/mixins";
+@import "abstracts/variables";
+
+
+@import "base/base";
+
+@import "base/typography";
+
+
+
+// @import "layouts/";
+
 @import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap");
 @import url("https://fonts.googleapis.com/icon?family=Material+Icons");
 * {
@@ -181,7 +194,7 @@
                         .clap_icon {
                             position: absolute;
                             margin-left: 8em;
-                            margin-top: -1.4em;
+                            margin-top: -1.4em;                                 
                             font-size: x-large;
                         }
                         .brain_icon {
@@ -200,6 +213,9 @@
                 font-size: 3em;
                 margin-bottom: 0;
                 animation: slide_up 1s ease;
+                @include respond(big-desktop) {
+                    font-size: 4em;
+                }
             }
             @keyframes slide_up {
                 0% {
@@ -214,6 +230,9 @@
                 font-size: 3em;
                 margin: 0;
                 animation: slide_up 1s ease;
+                @include respond(big-desktop) {
+                    font-size: 4em;
+                }
             }
             button {
                 background: rgb(0,198,210);
@@ -232,6 +251,9 @@
                     margin-left: 1em;
                     vertical-align: -5px;
                 }
+                @include respond(big-desktop) {
+                    font-weight: 4em;
+                }
             }
         }
         .main_image_wrapper {
@@ -247,6 +269,11 @@
                 z-index: 5;
                 bottom: 17em;
                 background: none;
+                @include respond(big-desktop) {
+                    width: 51%;
+                    left: 49em;
+                    bottom: 13em;
+                }
             }
             @keyframes book_animation {
                 0% {
@@ -276,6 +303,11 @@
                 z-index: 1;
                 background: linear-gradient(140.62deg
             , #FFFFFF 18.89%, rgba(245, 245, 245, 0.60143) 48.52%, rgba(175, 148, 148, 0) 93.24%);
+                @include respond(big-desktop) {
+                    width: 500px;
+                    height: 500px;
+                    left: 66%;
+                }
               }
         }
         .dates_wrapper {

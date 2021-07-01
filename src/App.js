@@ -1,5 +1,5 @@
 import React , { Component } from 'react';
-import './App.scss';
+import './sass/main.scss';
 import ReadingMenu from './component/reading_menu';
 import Articles from './component/articles';
 
