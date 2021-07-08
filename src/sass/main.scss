@@ -14,7 +14,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap");
 @import url("https://fonts.googleapis.com/icon?family=Material+Icons");
 * {
-    background-color: #E5E5E5;
+    // background-color: #E5E5E5;
 
 }
 
@@ -213,23 +213,26 @@
                 font-size: 3em;
                 margin-bottom: 0;
                 animation: slide_up 1s ease;
+                @keyframes slide_up {
+                    0% {
+                        transform: translateY(150px);
+                    }
+                    100% {
+                        transform: translateY(0);
+                    }
+                }
                 @include respond(big-desktop) {
                     font-size: 4em;
                 }
             }
-            @keyframes slide_up {
-                0% {
-                    transform: translateY(150px);
-                }
-                100% {
-                    transform: translateY(0);
-                }
-            }
+            
             
             .book_title_second {
                 font-size: 3em;
                 margin: 0;
                 animation: slide_up 1s ease;
+               
+                
                 @include respond(big-desktop) {
                     font-size: 4em;
                 }
@@ -312,6 +315,8 @@
         }
         .dates_wrapper {
             height: 10em;
+            position: relative;
+            bottom: 12em;
             .dates_container {
                 display: flex;
                 .first_date {
