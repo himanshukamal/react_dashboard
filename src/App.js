@@ -6,8 +6,8 @@ import Articles from './component/articles';
 function App() {
   return (
     <div className="App">
-      <ReadingMenu />
-      {/* <Articles /> */}
+      {/* <ReadingMenu /> */}
+      <Articles />
       
     </div>
   );

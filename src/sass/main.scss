@@ -387,6 +387,10 @@
 } 
 
 .articles_wrapper {
+    .margin_top {
+        margin-top: 2em;
+    }
+        
     .page_title {
         font-size: 3em;
         font-family: fantasy;
@@ -395,7 +399,7 @@
         background-color: greenyellow;
     }
     .first_article {
-        border: 1px solid black;
+        box-shadow: 0 3px 10px grey;
         width: 50%;
         margin: 0 auto;
         .image_and_name {
@@ -404,9 +408,11 @@
             .image_wrapper {
                 img {
                     width: 3em;
+                    padding: 1em;
                 }
             }
             .author_name {
+                padding: 2em 1em;
                 margin-left: 2em;
             }
         }
@@ -414,10 +420,12 @@
             display: flex;
             justify-content: space-around;
             .article_title {
-                text-transform: uppercase;
+                padding: 1em;
+                text-transform: capitalize;
                 align-items: center;
-                
-                
+            }
+            .article_art {
+                padding: 0em 1em;
             }
         }
         .date_and_time {
