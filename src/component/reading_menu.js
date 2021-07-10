@@ -127,12 +127,12 @@ class ReadingMenu extends Component {
                                         <p className="genre">
                                             crime novel
                                         </p>
-                                        <h3>1</h3>
+                                        <h3>2</h3>
                                     </span> 
                                     
                                     <span className="normal">
                                         <p className="month_name">Jan</p>
-                                        <h3 >1</h3>
+                                        <h3 >2</h3>
                                     </span>
                                 </div>
 
@@ -142,12 +142,12 @@ class ReadingMenu extends Component {
                                         <p className="genre">
                                             children novel
                                         </p>
-                                        <h3>1</h3>
+                                        <h3>3</h3>
                                     </span> 
                                     
                                     <span className="normal">
                                         <p className="month_name">Jan</p>
-                                        <h3 >1</h3>
+                                        <h3 >3</h3>
                                     </span>
                                 </div>
 
@@ -157,12 +157,12 @@ class ReadingMenu extends Component {
                                         <p className="genre">
                                             children novel
                                         </p>
-                                        <h3>1</h3>
+                                        <h3>4</h3>
                                     </span> 
                                     
                                     <span className="normal">
                                         <p className="month_name">Jan</p>
-                                        <h3 >1</h3>
+                                        <h3 >4</h3>
                                     </span>
                                 </div>
 
@@ -172,12 +172,12 @@ class ReadingMenu extends Component {
                                         <p className="genre">
                                             children novel
                                         </p>
-                                        <h3>1</h3>
+                                        <h3>5</h3>
                                     </span> 
                                     
                                     <span className="normal">
                                         <p className="month_name">Jan</p>
-                                        <h3 >1</h3>
+                                        <h3 >5</h3>
                                     </span>
                                 </div>
 
@@ -187,12 +187,12 @@ class ReadingMenu extends Component {
                                         <p className="genre">
                                             children novel
                                         </p>
-                                        <h3>1</h3>
+                                        <h3>6</h3>
                                     </span> 
                                     
                                     <span className="normal">
                                         <p className="month_name">Jan</p>
-                                        <h3 >1</h3>
+                                        <h3 >6</h3>
                                     </span>
                                 </div>
                                 <div className="first_date">
@@ -201,12 +201,12 @@ class ReadingMenu extends Component {
                                         <p className="genre">
                                             children novel
                                         </p>
-                                        <h3>1</h3>
+                                        <h3>7</h3>
                                     </span> 
                                     
                                     <span className="normal">
                                         <p className="month_name">Jan</p>
-                                        <h3 >1</h3>
+                                        <h3 >7</h3>
                                     </span>
                                 </div>
                                 <div className="first_date">
@@ -215,12 +215,12 @@ class ReadingMenu extends Component {
                                         <p className="genre">
                                             children novel
                                         </p>
-                                        <h3>1</h3>
+                                        <h3>8</h3>
                                     </span> 
                                     
                                     <span className="normal">
                                         <p className="month_name">Jan</p>
-                                        <h3 >1</h3>
+                                        <h3 >8</h3>
                                     </span>
                                 </div>
                                 

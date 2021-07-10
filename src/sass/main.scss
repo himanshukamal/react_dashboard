@@ -6,9 +6,6 @@
 @import "base/base";
 
 @import "base/typography";
-
-
-
 // @import "layouts/";
 
 @import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap");
@@ -434,4 +431,15 @@
         
     }
 }
-    
+.chartjs_wrapper {
+    padding: 2em;
+    display: flex;
+    .card_datetime {
+        width: 50%;
+        border-radius: 1em;
+        box-shadow: 0 3px 10px grey;
+    }
+    .card_doughnut {
+        width: fit-content;
+    }
+} 
